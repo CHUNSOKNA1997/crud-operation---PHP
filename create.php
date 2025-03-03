@@ -20,7 +20,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <title>Create User</title>
+    <title>CREATE USER</title>
 </head>
 <body>
     <div class="w-screen min-h-screen flex flex-col justify-center items-center space-y-7">
