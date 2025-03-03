@@ -25,7 +25,7 @@
 </head>
 <body>
     <div class="w-screen min-h-screen flex flex-col justify-center items-center space-y-7">
-        <h2 class="text-5xl font-bold text-blue-600">Create User</h2>
+        <h2 class="text-5xl font-bold text-blue-600">CREATE USER</h2>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" class="flex flex-col gap-5">
             <label for="username" class="text-2xl font-semibold">Username</label>
             <input required type="text" name="username" placeholder="username" class="text-xl py-4 px-8 outline outline-gray-600 rounded-lg">
