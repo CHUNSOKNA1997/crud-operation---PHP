@@ -3,6 +3,7 @@
     $sql = "SELECT * FROM tbuser";
     $result = $connection->query($sql);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
