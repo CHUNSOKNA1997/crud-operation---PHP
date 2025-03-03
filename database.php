@@ -8,6 +8,5 @@
 
     if($connection->connect_error){
      die ("Connection is error" . $connection->connect_error);
-    }else
-          echo "seccess";
+    }
 ?>
