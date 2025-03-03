@@ -39,7 +39,7 @@
         $isSuccess = updateUser($connection, $uid, $username, $email);
         
         if($isSuccess) {
-            $updateMessage = "User updated successfully!";
+            header("Location: read.php");
         } else {
             $updateMessage = "Failed to update user: " . $connection->error;
         }
